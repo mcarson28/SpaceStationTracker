@@ -1,26 +1,22 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <style>
-            .googleMap {
-                border-radius: 30px;
-            }
-
-            h1 {
-                color: maroon;
-                margin-left: 40px;
-            }
-        </style>
         <title>International Space Station Tracker</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="http://maps.googleapis.com/maps/api/js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
         <script src="app.js"></script>
     </head>
 
     <body>
+    <h1 class="title">ISS Tracker</h1>
         <div>
-            <p class="Latitude">Latitude: </p>
-            <p class="Longitude">Longitude: </p>
+            <div class="position">
+                <p class="Latitude">Latitude: </p>
+            </div>
+            <div class="position">
+                <p class="Longitude">Longitude: </p>
+            </div>
         </div>
         <div id="googleMap" style="width:500px;height:380px;"></div>
     </body>

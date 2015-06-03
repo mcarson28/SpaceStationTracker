@@ -56,8 +56,8 @@ $(document).ready(function() {
 	}
 
 	function updateCoordinatesOnPage(latitude, longitude){
-		$('.Latitude').text("Latitude: " + latitude);
-		$('.Longitude').text("Longitude: " + longitude);
+		$('.Latitude').text("Latitude: " + latitude + " Degrees");
+		$('.Longitude').text("Longitude: " + longitude + " Degrees");
 	}
 });
 
